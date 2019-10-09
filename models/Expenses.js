@@ -3,7 +3,8 @@ moduele.exports = (Schema, model)=>{
         title: {type: String},
         category: {type: String},
         dateSpent: {},
-        amount: {}
+        amount: {},
+        isCash: {type:boolean}
     })
     return model('Expenses', Expenses)
 }
