@@ -1,10 +1,10 @@
-moduele.exports = (Schema, model)=>{
+module.exports = (Schema, model)=>{
     const Expenses = new Schema({
         title: {type: String},
         category: {type: String},
         dateSpent: {},
         amount: {},
-        isCash: {type:boolean}
+        isCash: {}
     })
     return model('Expenses', Expenses)
 }
