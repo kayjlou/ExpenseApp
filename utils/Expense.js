@@ -8,4 +8,4 @@ const Expense = {
   deleteExpense: id => app.delete(`/expenses/${id}`)
 }
 
-export default Article
+export default Expense
